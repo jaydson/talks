@@ -1,0 +1,59 @@
+import { Head } from 'mdx-deck'
+import { Appear } from 'mdx-deck'
+import Cover from './components/cover'
+import About from './components/about'
+import RehabCounter from './components/rehab-counter'
+
+<Head>
+  <title>Falhamos! Precisamos re-descentralizar a Web!</title>
+    <meta name="description" content="Desenvolvimento de Software (JavaScript), devaneios e outras coisas" />
+    <meta name="author" content="Jaydson Gomes" />
+    <link rel="apple-touch-icon" href="https://jaydson.com//img/apple-touch-icon.png" />
+    <link rel="icon" href="https://jaydson.com/img/favicon.ico" />
+</Head>
+
+<Cover />
+---
+```
+{
+    name: "Jaydson Gomes",
+    companies: ["@BrazilJS", "@Nasc"],
+    title: ["Software Developer, Entrepreneur"],
+    contact: {
+        website: "https://jaydson.com",
+        email: "jaydson@nasc.io"
+    }
+}
+```
+---
+
+<RehabCounter />
+
+---
+# About Me
+<ul>
+  <Appear>
+    <li>One</li>
+    <li>Two</li>
+    <li>Three</li>
+  </Appear>
+</ul>
+---
+
+# Nosso mercado
+<ul>
+  <Appear>
+    <li>Fake news</li>
+    <li>Clickbait</li>
+    <li>Outbrain e semelhantes</li>
+    <li>Inbound Marketing</li>
+    <li>Growth Hacking</li>
+  </Appear>
+</ul>
+
+```notes
+These are only visible in presenter mode
+```
+---
+# The end
+---
