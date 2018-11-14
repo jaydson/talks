@@ -3,6 +3,8 @@ import { Appear } from 'mdx-deck'
 import Cover from './components/cover'
 import About from './components/about'
 import RehabCounter from './components/rehab-counter'
+import { Image } from 'mdx-deck'
+import ImageText  from './components/image-text'
 
 <Head>
   <title>Falhamos! Precisamos re-descentralizar a Web!</title>
@@ -12,12 +14,14 @@ import RehabCounter from './components/rehab-counter'
     <link rel="icon" href="https://jaydson.com/img/favicon.ico" />
 </Head>
 
-<Cover />
+<Cover imgSrc="./thomas-tucker-129635-unsplash.jpg" title="FALHAMOS!" content="Precisamos re-descentralizar a Web!"/>
+
 ---
+
 ```
 {
     name: "Jaydson Gomes",
-    companies: ["@BrazilJS", "@Nasc"],
+    company: ["Nasc /  BrazilJS"],
     title: ["Software Developer, Entrepreneur"],
     contact: {
         website: "https://jaydson.com",
@@ -30,6 +34,58 @@ import RehabCounter from './components/rehab-counter'
 <RehabCounter />
 
 ---
+
+<Image src='./screenshot-post-rehab.png' />
+
+---
+
+> "Social media is `destroying` society"
+
+```notes
+- Eleições, polarização, mercado em geral (social media está em cima de uma camada, a internet)
+```
+---
+
+> "Social media has `eroded` the core foundations of how people behave by and between each other"
+
+```notes
+- Todo mundo tem uma opinião mesmo sem saber o que está falando
+- Críticas desnecessárias
+- Discurso de ódio
+- Informações falsas
+```
+
+---
+
+<ImageText imgSrc="./chamath_palihapitiya.jpg" content="Chamath Palihapitiya"/>
+
+```notes
+- Chamath Palihapitiya, VP no Facebok de 2007 a 2011
+```
+
+---
+
+> “It’s a social-validation `feedback loop` … exactly the kind of thing that a hacker like myself would come up with, because you’re `exploiting` a `vulnerability` in human `psychology`.”
+
+---
+
+> "How do we consume as much of your time and conscious attention as possible?” It was this mindset that led to the creation of features such as the 'like' button that would give users `a little dopamine hit` to encourage them to upload more content"
+
+---
+
+<ImageText imgSrc="./seanparker.jpg" content="Sean Parker" />
+
+---
+
+> “Move fast and break things. Unless you are breaking stuff, you are not moving fast enough.”
+<span>― Mark Suckerberg</span>
+
+---
+
+<Image src="suckerberg.png" />
+
+---
+
 # About Me
 <ul>
   <Appear>
