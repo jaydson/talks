@@ -10,6 +10,9 @@
   "devDependencies": {},
   "scripts": {
     "start": "mdx-deck deck.mdx",
+    "build": "npm run clean && npm run static && mdx-deck build deck.mdx",
+    "clean": "rm -rf dist",
+    "static": "mkdir -p dist/static && cp -R ./static dist/",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
